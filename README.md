@@ -1,4 +1,3 @@
-# Dniellu-Data-Science-Repository
 # 台師大科技系資料結構 
 授課教師：蔡芸琤老師   
 姓名：盧昱廷   

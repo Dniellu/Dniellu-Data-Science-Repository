@@ -22,7 +22,7 @@ from autogen_ext.models.openai import OpenAIChatCompletionClient
 from autogen_ext.agents.web_surfer import MultimodalWebSurfer
 
 load_dotenv()
-
+#HW1 Prompt change info
 async def process_chunk(chunk, start_idx, total_records, model_client, termination_condition):
     """
     處理單一批次的死亡人口數據，
@@ -73,7 +73,7 @@ async def main():
         model="gemini-2.0-flash",
         api_key=gemini_api_key,
     )
-    
+    #HW1 Data set info
     termination_condition = TextMentionTermination("exit")
     csv_file_path = "opendata107d010.csv"
     chunk_size = 1000

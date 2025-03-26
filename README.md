@@ -10,6 +10,5 @@
 [HW2程式碼](./sentiment_analysis.py)
 
 ![執行結果](https://github.com/user-attachments/assets/bac617da-cadd-4d7e-ad8c-7d0cbf6140e3)
-sets/90b101a2-e4e0-4682-82fe-66be9e1ca635)
 
 # 💡專題連結區

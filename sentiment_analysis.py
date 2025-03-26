@@ -48,7 +48,7 @@ def select_dialogue_column(chunk: pd.DataFrame) -> str:
             return col
     print("CSV 欄位：", list(chunk.columns))
     return chunk.columns[0]
-
+#HW2
 def process_batch_dialogue(client, dialogues: list, delimiter="\n###\n"):
     """
     批量處理對話，送入 Gemini API 分析。

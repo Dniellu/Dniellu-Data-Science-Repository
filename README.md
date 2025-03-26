@@ -1,22 +1,15 @@
-# Gemini 批次評估流程
+# 台師大科技系資料結構 
+授課教師：蔡芸琤老師   
+姓名：盧昱廷   
+系級：科技系三年級 
+# ✏️作業連結區
+[HW1程式碼](./dataAgent.py)
 
-這個專案提供一個 Python 程式，用於從 CSV 檔案中讀取家長唸故事書的逐字稿（預期 CSV 格式為 `start,end,text`），然後透過 [Google Gemini API](https://ai.google.dev/gemini-api/docs) 批次評估每句逐字稿，依據預定的評分項目生成 JSON 格式的回覆。每處理完一個批次，結果會立即寫入輸出檔案中，以避免因中途錯誤導致資料遺失。
+![AI Agent流程圖](https://github.com/user-attachments/assets/90b101a2-e4e0-4682-82fe-66be9e1ca635)
 
----
+[HW2程式碼](./sentiment_analysis.py)
 
-## 功能概述
+![執行結果](https://github.com/user-attachments/assets/bac617da-cadd-4d7e-ad8c-7d0cbf6140e3)
+sets/90b101a2-e4e0-4682-82fe-66be9e1ca635)
 
-- **CSV 讀取與欄位選擇**  
-  程式會自動從 CSV 中選取儲存逐字稿的欄位，優先使用 `text` 欄，如果沒有則依序檢查 `utterance`、`content`、`dialogue` 等常見欄位名稱。
-
-- **批次處理**  
-  將多筆逐字稿合併成一個批次請求給 Gemini API，並要求模型對每筆逐字稿產生 JSON 格式回覆，且各筆結果以指定的分隔符（預設為 `-----`）分隔。這樣可以減少 API 呼叫次數。
-
-- **API 呼叫與結果解析**  
-  程式會呼叫 Gemini API 進行評估，回傳結果可能包含 markdown 格式的反引號 (```)，因此程式會先清理回傳內容，再解析成 JSON。解析後，若缺少評分項目則自動補上空字串。
-
-- **即時寫入結果**  
-  每個批次處理完後，結果會立即寫入輸出檔案 `113_batch.csv`（以附加模式寫入），確保即使中途發生錯誤或程式中斷，也能保留前面的處理結果。
-
-- **降低請求頻率**  
-  程式在每個批次處理後會延遲 1 秒，以降低 API 呼叫頻率，避免因短時間內大量請求而耗盡配額。
+# 💡專題連結區

@@ -22,4 +22,4 @@
 ![Gradio執行畫面](https://github.com/user-attachments/assets/2f1bec32-c294-4209-88cf-09194f02a06b)
 
 # 💡專題連結區
-[第一次提案](https://www.youtube.com/watch?v=HNZi0XfPRjk)
+[第一次提案報告](https://www.youtube.com/watch?v=HNZi0XfPRjk)

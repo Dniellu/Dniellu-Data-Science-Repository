@@ -18,7 +18,6 @@
 [HW4程式碼](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/DRai/getPDF.py)
 
 [原始CSV逐字稿](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/DRai/art_class_interview.csv.csv)
-
 [PDF報表](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/DRai/report_20250407_223916.pdf)
 ![Gradio執行畫面](https://github.com/user-attachments/assets/2f1bec32-c294-4209-88cf-09194f02a06b)
 

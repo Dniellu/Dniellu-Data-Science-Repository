@@ -2,6 +2,8 @@
 授課教師：蔡芸琤老師   
 姓名：盧昱廷   
 系級：科技系三年級 
+
+[期末專題分組連結](https://docs.google.com/spreadsheets/d/18MFjfKVPbSYbOLMS8fRfZvK6q9LYYMPfMZ_UshF0sVI/edit?gid=1301190595#gid=1301190595)
 # ✏️作業連結區
 [HW1程式碼](./dataAgent.py)
 

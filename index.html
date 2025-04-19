@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8" />
+    <title>情緒日記分析系統</title>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <h1>📂 上傳日誌</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" name="file" required />
+        <button type="submit">上傳並分析</button>
+    </form>
+
+    <h2>📊 情緒走向圖</h2>
+    <div id="plot">
+        <img id="mood-trend" src="" alt="心情趨勢圖將顯示於此" style="width: 100%; display: none;" />
+    </div>
+
+    <h2>📈 創作構面長條圖</h2>
+    <div id="aspect">
+        <img id="aspect-bar" src="" alt="構面長條圖將顯示於此" style="width: 100%; display: none;" />
+    </div>
+
+    <h2>🧩 即時分析進度</h2>
+    <div id="progress"></div>
+
+    <h2>💡 Gemini 給的建議</h2>
+    <div id="suggestions"></div>
+
+    <script>
+        const socket = io();
+        const form = document.getElementById('upload-form');
+        const progress = document.getElementById('progress');
+        const suggestions = document.getElementById('suggestions');
+        const moodTrend = document.getElementById('mood-trend');
+        const aspectBar = document.getElementById('aspect-bar');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const formData = new FormData(form);
+            fetch('/upload', { method: 'POST', body: formData });
+            progress.innerHTML = '🟢 檔案上傳成功，開始分析中...';
+            suggestions.innerHTML = '';
+            moodTrend.style.display = 'none';
+            aspectBar.style.display = 'none';
+        });
+
+        socket.on('update', function (data) {
+            progress.innerHTML += `<p>${data.message}</p>`;
+        });
+
+        socket.on('result', function (data) {
+            console.log('✅ 接收到分析結果：', data);
+
+            // 顯示情緒圖
+            moodTrend.src = data.moodtrend_img + '?t=' + new Date().getTime();
+            moodTrend.style.display = 'block';
+
+            // 顯示構面長條圖
+            aspectBar.src = data.aspect_bar_img + '?t=' + new Date().getTime();
+            aspectBar.style.display = 'block';
+
+            // 顯示 Gemini 建議
+            suggestions.innerHTML = `<pre>${data.ai_feedback}</pre>`;
+        });
+    </script>
+</body>
+</html>

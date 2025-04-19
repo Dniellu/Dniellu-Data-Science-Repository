@@ -32,5 +32,7 @@ HW5
 [art_class_interview.csv](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/art_class_interview.csv)
 [index.html](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/index.html)
 
+[執行影片](https://www.youtube.com/watch?v=M8UdLj20xeU)
+
 # 💡專題連結區
 [第一次提案報告](https://www.youtube.com/watch?v=HNZi0XfPRjk)

@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e8886e03-e0b7-4fbe-a80e-9edea506dc67)# 台師大科技系資料結構 
+# 台師大科技系資料結構 
 授課教師：蔡芸琤老師   
 姓名：盧昱廷   
 系級：科技系三年級 

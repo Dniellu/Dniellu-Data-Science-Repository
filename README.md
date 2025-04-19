@@ -1,4 +1,4 @@
-# 台師大科技系資料結構 
+![image](https://github.com/user-attachments/assets/e8886e03-e0b7-4fbe-a80e-9edea506dc67)# 台師大科技系資料結構 
 授課教師：蔡芸琤老師   
 姓名：盧昱廷   
 系級：科技系三年級 
@@ -33,6 +33,13 @@ HW5
 [index.html](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/index.html)
 
 [執行影片](https://www.youtube.com/watch?v=M8UdLj20xeU)
+
+![image](https://github.com/user-attachments/assets/3f6cfd1e-a252-47a8-9bc5-c85b30bb5972)
+![image](https://github.com/user-attachments/assets/91b09f7b-f06d-4057-b6fd-9dda9d2444b4)
+![image](https://github.com/user-attachments/assets/b196968d-410f-4125-829f-364bfacfcdb9)
+
+
+
 
 # 💡專題連結區
 [第一次提案報告](https://www.youtube.com/watch?v=HNZi0XfPRjk)

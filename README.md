@@ -24,6 +24,12 @@
 ![Gradio執行畫面](https://github.com/user-attachments/assets/2f1bec32-c294-4209-88cf-09194f02a06b)
 
 HW5
-[app.py]
+
+[app.py](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/app.py)
+[EMOwithSnow.py](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/EMOwithSnow.py)
+[student_aspect_sequence.py](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/student_aspect_sequence.py)
+[art_class_interview.csv](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/art_class_interview.csv)
+[index.html](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/index.html)
+
 # 💡專題連結區
 [第一次提案報告](https://www.youtube.com/watch?v=HNZi0XfPRjk)

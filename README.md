@@ -23,5 +23,7 @@
 [PDF報表](https://github.com/Dniellu/Dniellu-Data-Science-Repository/blob/main/DRai/report_20250407_223916.pdf)
 ![Gradio執行畫面](https://github.com/user-attachments/assets/2f1bec32-c294-4209-88cf-09194f02a06b)
 
+HW5
+[app.py]
 # 💡專題連結區
 [第一次提案報告](https://www.youtube.com/watch?v=HNZi0XfPRjk)

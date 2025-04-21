@@ -43,3 +43,5 @@ HW5
 
 # 💡專題連結區
 [第一次提案報告](https://www.youtube.com/watch?v=HNZi0XfPRjk)
+
+[第二次提案報告](https://www.youtube.com/watch?v=HVR233aHdG8)

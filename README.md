@@ -45,3 +45,5 @@ HW5
 [第一次提案報告](https://www.youtube.com/watch?v=HNZi0XfPRjk)
 
 [第二次提案報告](https://www.youtube.com/watch?v=HVR233aHdG8)
+
+[期末專題報告](https://www.youtube.com/watch?v=vkKSGu4_e-4)
